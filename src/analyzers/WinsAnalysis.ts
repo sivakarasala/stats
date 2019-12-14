@@ -1,7 +1,6 @@
 import { Analyzer } from "../Summary";
 import { MatchData } from "../MatchData";
 import { MatchResult } from "../MatchResult";
-import { WSANOTINITIALISED } from "constants";
 
 export class WinsAnalysis implements Analyzer {
   constructor(public team: string) {}
